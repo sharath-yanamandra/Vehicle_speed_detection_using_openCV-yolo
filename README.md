@@ -28,14 +28,13 @@ Install dependencies via pip:
 
 ```bash
 # pip install opencv-python numpy
-
+```
 ## 📁 How to Use
 Replace the video source: Update the following line to your own video file:
 
-python
-Copy
-Edit
+```
 cap = cv2.VideoCapture("your_video.mp4")
+```
 Adjust calibration values: Modify real_world_distance_meters and pixels_between_lines to match your scene calibration.
 
 Run the script:
